@@ -1,0 +1,22 @@
+{
+  "name": "build-asciidoc",
+  "version": "0.1.0",
+  "description": "An Asciidoc builder for Atom.",
+  "repository": "https://github.com/tkfu/atom-build-asciidoc",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.175.0"
+  },
+  "providedServices": {
+    "builder": {
+      "description": "Builds asciidoc files",
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    }
+  },
+  "package-deps": [
+    "build"
+  ],
+  "main": "lib/asciidoc.js"
+}
